@@ -1,11 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {
+  tigitaleIconsAdvertisement,
+  tigitaleIconsAirplay,
+  tigitaleIconsAlarm,
+  tigitaleIconsAlarmChecked,
+  tigitaleIconsArrowsDiagonals
+}
+  from 'projects/tigitale-icons/src/lib/tigitale-icons';
 
-import { TigitaleIconsModule } from 'tigitale-icons';
-import { TigitaleIconsRegistry } from 'projects/tigitale-icons/src/lib/tigitale-icons.registry';
-import { tigitaleIconsAdvertisement, tigitaleIconsAirplay, tigitaleIconsAlarm } from 'projects/tigitale-icons/src/lib/tigitale-icons';
+import { TigitaleIconsRegistry } from 'projects/tigitale-icons/src/lib/tigitale-icons-registry';
+import { TigitaleIconsModule } from 'projects/tigitale-icons/src/lib/tigitale-icons.module';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +22,8 @@ import { tigitaleIconsAdvertisement, tigitaleIconsAirplay, tigitaleIconsAlarm } 
   ],
   imports: [
     BrowserModule,
-    TigitaleIconsModule
+    TigitaleIconsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -24,6 +34,8 @@ export class AppModule {
       tigitaleIconsAdvertisement,
       tigitaleIconsAirplay,
       tigitaleIconsAlarm,
+      tigitaleIconsAlarmChecked,
+      tigitaleIconsArrowsDiagonals
     ])
   }
 }

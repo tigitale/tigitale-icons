@@ -1,21 +1,21 @@
+import { Component, ElementRef, Inject, Input, Optional } from '@angular/core';
+import { tigitaleIcon } from './tigitale-icons';
+import { TigitaleIconsRegistry } from './tigitale-icons-registry';
 import { DOCUMENT } from '@angular/common';
-import { ChangeDetectionStrategy, Component, Input, ElementRef, Optional, Inject } from '@angular/core';
-import { TigitaleIconsRegistry } from './tigitale-icons.registry';
 
 @Component({
   selector: 'lib-tigitale-icons',
   template: `
-  <ng-content></ng-content>
+    <ng-content></ng-content>
   `,
   styles: [':host::ng-deep svg{width: 50px; height: 50px}'],
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class TigitaleIconsComponent {
 
   private svgIcon: SVGElement;
 
   @Input()
-  set name(iconName: string) {
+  set name(iconName: tigitaleIcon) {
     if (this.svgIcon) {
       this.element.nativeElement.revomeChild(this.svgIcon);
     }
@@ -25,7 +25,8 @@ export class TigitaleIconsComponent {
 
   }
 
-  constructor(private element: ElementRef, private tigitaleIconsRegistry: TigitaleIconsRegistry,
+  constructor(private element: ElementRef,
+    private tigitaleIconsRegistry: TigitaleIconsRegistry,
     @Optional() @Inject(DOCUMENT) private document: any) { }
 
   private svgElementFromString(svgContent: string): SVGElement {
