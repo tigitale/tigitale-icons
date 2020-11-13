@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { TigitaleIconsModule } from 'tigitale-icons';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TigitaleIconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

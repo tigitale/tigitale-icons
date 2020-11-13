@@ -1,20 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, ElementRef } from '@angular/core';
+import { tigitaleIcons } from './tigitale-icons';
 
 @Component({
   selector: 'lib-tigitale-icons',
   template: `
-    <p>
-      tigitale-icons works!
-    </p>
+  <ng-content></ng-content>
   `,
-  styles: [
-  ]
+  styles: [':host::ng-deep svg{width: 50px; height: 50px}'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class TigitaleIconsComponent implements OnInit {
+export class TigitaleIconsComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  @Input()
+  set name(iconName: string) {
+    this.element.nativeElement.innerHTML = tigitaleIcons[iconName] || null;
   }
+
+  constructor(private element: ElementRef) { }
+
+
 
 }
