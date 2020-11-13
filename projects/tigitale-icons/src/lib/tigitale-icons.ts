@@ -25,7 +25,11 @@ export const tigitaleIconsArrowsDiagonals: TigitaleIcon = {
 
 // | ''
 
-export type tigitaleIcon = 'airplay' | 'advertisement' | 'alarm' | 'alarm-checked' | 'arrows-diagonals';
+export type tigitaleIcon = 'airplay' |
+    'advertisement' |
+    'alarm' |
+    'alarm-checked' |
+    'arrows-diagonals';
 
 export interface TigitaleIcon {
     name: tigitaleIcon;
