@@ -9,7 +9,7 @@ import { DOCUMENT } from '@angular/common';
   template: `
     <ng-content></ng-content>
   `,
-  styles: [':host::ng-deep svg{width: 72px; height: 72px}'],
+  styles: [':host::ng-deep svg{width: 60px; height: 60px}'],
 })
 export class TigitaleIconsComponent {
 

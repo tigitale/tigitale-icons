@@ -188,6 +188,28 @@ export const TigitaleIconsClipboardtext: TigitaleIcon = {
     data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / file / clipboard-text"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M8.99592 2C9.7482 1.36297 10.8391 1 12 1C13.1609 1 14.2518 1.36297 15.0041 2H16C17.1046 2 18 2.89543 18 4H19C20.1046 4 21 4.89543 21 6V21C21 22.1046 20.1046 23 19 23H5C3.89543 23 3 22.1046 3 21V6C3 4.89543 3.89543 4 5 4H6C6 2.89543 6.89543 2 8 2H8.99592ZM16 7C16.7403 7 17.3866 6.5978 17.7324 6H19V21H5V6H6.26756C6.61337 6.5978 7.25972 7 8 7H16ZM8 16V14H14V16H8ZM8 10V12H16V10H8ZM9.85762 4L10.1566 3.65538C10.4852 3.27674 11.1894 3 12 3C12.8106 3 13.5148 3.27674 13.8434 3.65538L14.1424 4H16V5H8V4H9.40135H9.85762Z" fill="black"/></g></svg>'
 };
 
+export const TigitaleIconsPin: TigitaleIcon = {
+    name: 'pin',
+    data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / maps / pin"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M12 23.3276L12.6577 22.7533C18.1887 17.9237 21 13.7068 21 10C21 4.75066 16.9029 1 12 1C7.09705 1 3 4.75066 3 10C3 13.7068 5.81131 17.9237 11.3423 22.7533L12 23.3276ZM12 20.6634C7.30661 16.4335 5 12.8492 5 10C5 5.8966 8.16411 3 12 3C15.8359 3 19 5.8966 19 10C19 12.8492 16.6934 16.4335 12 20.6634ZM12 5C14.7614 5 17 7.23858 17 10C17 12.7614 14.7614 15 12 15C9.23858 15 7 12.7614 7 10C7 7.23858 9.23858 5 12 5ZM9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10Z" fill="black"/></g></svg>'
+};
+
+export const TigitaleIconsBell: TigitaleIcon = {
+    name: 'bell',
+    data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / notifications / bell"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M19 10C19 5.94082 16.7616 3.1235 13.8654 2.27771C13.7605 2.00636 13.5948 1.7541 13.3695 1.54243C12.5997 0.81919 11.4003 0.81919 10.6305 1.54243C10.4057 1.75364 10.2402 2.00525 10.1353 2.27592C7.23535 3.11803 5 5.92919 5 10C5 12.6339 4.46898 14.1098 3.48596 15.1793C3.32161 15.3582 2.87632 15.7678 2.57468 16.0453L2.57465 16.0453L2.57465 16.0453L2.5745 16.0454C2.43187 16.1766 2.32138 16.2783 2.28796 16.3119L2 16.604V20.0141H8.08798C8.29384 21.0761 8.87009 21.7867 9.9122 22.4226C11.1941 23.2049 12.8059 23.2049 14.0878 22.4226C15.0075 21.8614 15.6241 20.9989 15.8743 20.0141H22V16.604L21.712 16.3119C21.6817 16.2812 21.5757 16.1834 21.437 16.0555C21.1363 15.7781 20.6823 15.3592 20.5154 15.1769C19.5317 14.1024 19 12.6246 19 10ZM13.7367 20.0141H10.1786C10.3199 20.2769 10.5607 20.4754 10.954 20.7154C11.5963 21.1073 12.4037 21.1073 13.046 20.7154C13.3434 20.5339 13.5758 20.2937 13.7367 20.0141ZM19.0402 16.5274C19.2506 16.7573 19.7016 17.1774 20 17.4519V18.0141H4V17.4524C4.29607 17.1811 4.74843 16.7613 4.95849 16.5327C6.29422 15.0794 7 13.1178 7 10C7 6.21989 9.33277 4.01238 12 4.01238C14.6597 4.01238 17 6.23129 17 10C17 13.1078 17.706 15.07 19.0402 16.5274Z" fill="black"/></g></svg>'
+};
+
+export const TigitaleIconsSearch: TigitaleIcon = {
+    name: 'search',
+    data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / search"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 11.8487 17.3729 13.551 16.3199 14.9056L21.7071 20.2929L20.2929 21.7071L14.9056 16.3199C13.551 17.3729 11.8487 18 10 18ZM16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4C13.3137 4 16 6.68629 16 10Z" fill="black"/></g></svg>'
+};
+
+export const TigitaleIconsHome: TigitaleIcon = {
+    name: 'home',
+    data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / home"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M5.88867 10L11.89 3.99867L17.8913 10H17.89V20H5.89001V10H5.88867ZM3.89001 11.9987L2.4132 13.4755L1 12.0623L10.477 2.58529C11.2574 1.8049 12.5226 1.8049 13.303 2.58529L22.78 12.0623L21.3668 13.4755L19.89 11.9987V20C19.89 21.1046 18.9946 22 17.89 22H5.89001C4.78545 22 3.89001 21.1046 3.89001 20V11.9987Z" fill="black"/></g></svg>'
+};
+
+
+
 
 export type tigitaleIcon =
     'airplay' |
@@ -224,12 +246,17 @@ export type tigitaleIcon =
     'arrow-top-left' |
     'arrow-top-right' |
     'arrow-undo' |
-    //para andre
+    //para menu lateral
     'user' |
     'calendar-dates' |
     'clipboard-text' |
     'video' |
-    'settings';
+    'settings' |
+    //para tela de pesquisa
+    'home' |
+    'search' |
+    'bell' |
+    'pin';
 
 export interface TigitaleIcon {
     name: tigitaleIcon;

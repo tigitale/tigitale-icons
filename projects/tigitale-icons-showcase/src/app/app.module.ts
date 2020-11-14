@@ -41,8 +41,11 @@ import {
   TigitaleIconsVideo,
   TigitaleIconsSettings,
   TigitaleIconsCalendarDates,
-  TigitaleIconsClipboardtext
-
+  TigitaleIconsClipboardtext,
+  TigitaleIconsHome,
+  TigitaleIconsSearch,
+  TigitaleIconsBell,
+  TigitaleIconsPin
 }
   from 'projects/tigitale-icons/src/lib/tigitale-icons';
 
@@ -102,7 +105,11 @@ export class AppModule {
       TigitaleIconsVideo,
       TigitaleIconsSettings,
       TigitaleIconsCalendarDates,
-      TigitaleIconsClipboardtext
+      TigitaleIconsClipboardtext,
+      TigitaleIconsHome,
+      TigitaleIconsSearch,
+      TigitaleIconsBell,
+      TigitaleIconsPin
     ])
   }
 }
