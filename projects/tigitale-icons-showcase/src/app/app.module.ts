@@ -36,7 +36,13 @@ import {
   TigitaleIconsArrowTop,
   TigitaleIconsArrowTopLeft,
   TigitaleIconsArrowTopRight,
-  TigitaleIconsArrowUndo
+  TigitaleIconsArrowUndo,
+  TigitaleIconsUser,
+  TigitaleIconsVideo,
+  TigitaleIconsSettings,
+  TigitaleIconsCalendarDates,
+  TigitaleIconsClipboardtext
+
 }
   from 'projects/tigitale-icons/src/lib/tigitale-icons';
 
@@ -91,7 +97,12 @@ export class AppModule {
       TigitaleIconsArrowTop,
       TigitaleIconsArrowTopLeft,
       TigitaleIconsArrowTopRight,
-      TigitaleIconsArrowUndo
+      TigitaleIconsArrowUndo,
+      TigitaleIconsUser,
+      TigitaleIconsVideo,
+      TigitaleIconsSettings,
+      TigitaleIconsCalendarDates,
+      TigitaleIconsClipboardtext
     ])
   }
 }
