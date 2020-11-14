@@ -46,8 +46,7 @@ import {
   TigitaleIconsSearch,
   TigitaleIconsBell,
   TigitaleIconsPin
-}
-  from 'projects/tigitale-icons/src/lib/tigitale-icons';
+} from 'projects/tigitale-icons/src/lib/tigitale-icons';
 
 import { TigitaleIconsRegistry } from 'projects/tigitale-icons/src/lib/tigitale-icons-registry';
 import { TigitaleIconsModule } from 'projects/tigitale-icons/src/lib/tigitale-icons.module';
