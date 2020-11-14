@@ -4,11 +4,12 @@ import { TigitaleIconsRegistry } from './tigitale-icons-registry';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
-  selector: 'lib-tigitale-icons',
+  //selector: 'lib-tigitale-icons',
+  selector: 'ti-icons',
   template: `
     <ng-content></ng-content>
   `,
-  styles: [':host::ng-deep svg{width: 50px; height: 50px}'],
+  styles: [':host::ng-deep svg{width: 72px; height: 72px}'],
 })
 export class TigitaleIconsComponent {
 

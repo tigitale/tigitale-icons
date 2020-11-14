@@ -4,11 +4,39 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {
+  tigitaleIcons360,
   tigitaleIconsAdvertisement,
   tigitaleIconsAirplay,
   tigitaleIconsAlarm,
   tigitaleIconsAlarmChecked,
-  tigitaleIconsArrowsDiagonals
+  tigitaleIconsAlarmMinus,
+  tigitaleIconsAlarmNo,
+  tigitaleIconsAlarmPlus,
+  tigitaleIconsAlarmSnooze,
+  tigitaleIconsAlertCircle,
+  tigitaleIconsAlertOctagon,
+  tigitaleIconsAlertTriangle,
+  tigitaleIconsAppNotification,
+  tigitaleIconsArrowBottom,
+  TigitaleIconsArrowBottomLeft,
+  TigitaleIconsArrowBottomRight,
+  TigitaleIconsArrowForward,
+  TigitaleIconsArrowForwardAll,
+  TigitaleIconsArrowLeft,
+  TigitaleIconsArrowLeftCurved,
+  TigitaleIconsArrowRedo,
+  TigitaleIconsArrowReply,
+  TigitaleIconsArrowReplyAll,
+  TigitaleIconsArrowRight,
+  TigitaleIconAlarmMinusRightCurved,
+  TigitaleIconsArrowsDiagonals,
+  TigitaleIconsArrowsDiagonalsBltr,
+  TigitaleIconsArrowsDiagonalsTlbr,
+  TigitaleIconsArrowsHv,
+  TigitaleIconsArrowTop,
+  TigitaleIconsArrowTopLeft,
+  TigitaleIconsArrowTopRight,
+  TigitaleIconsArrowUndo
 }
   from 'projects/tigitale-icons/src/lib/tigitale-icons';
 
@@ -31,11 +59,39 @@ import { TigitaleIconsModule } from 'projects/tigitale-icons/src/lib/tigitale-ic
 export class AppModule {
   constructor(private tigitaleIconRegistry: TigitaleIconsRegistry) {
     this.tigitaleIconRegistry.resgisterIcons([
+      tigitaleIcons360,
       tigitaleIconsAdvertisement,
       tigitaleIconsAirplay,
       tigitaleIconsAlarm,
       tigitaleIconsAlarmChecked,
-      tigitaleIconsArrowsDiagonals
+      tigitaleIconsAlarmMinus,
+      tigitaleIconsAlarmNo,
+      tigitaleIconsAlarmPlus,
+      tigitaleIconsAlarmSnooze,
+      tigitaleIconsAlertCircle,
+      tigitaleIconsAlertOctagon,
+      tigitaleIconsAlertTriangle,
+      tigitaleIconsAppNotification,
+      tigitaleIconsArrowBottom,
+      TigitaleIconsArrowBottomLeft,
+      TigitaleIconsArrowBottomRight,
+      TigitaleIconsArrowForward,
+      TigitaleIconsArrowForwardAll,
+      TigitaleIconsArrowLeft,
+      TigitaleIconsArrowLeftCurved,
+      TigitaleIconsArrowRedo,
+      TigitaleIconsArrowReply,
+      TigitaleIconsArrowReplyAll,
+      TigitaleIconsArrowRight,
+      TigitaleIconAlarmMinusRightCurved,
+      TigitaleIconsArrowsDiagonals,
+      TigitaleIconsArrowsDiagonalsBltr,
+      TigitaleIconsArrowsDiagonalsTlbr,
+      TigitaleIconsArrowsHv,
+      TigitaleIconsArrowTop,
+      TigitaleIconsArrowTopLeft,
+      TigitaleIconsArrowTopRight,
+      TigitaleIconsArrowUndo
     ])
   }
 }
