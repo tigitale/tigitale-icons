@@ -3,38 +3,38 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tigitale-icons": {
+    "ti-icons-pack": {
       "projectType": "library",
-      "root": "projects/tigitale-icons",
-      "sourceRoot": "projects/tigitale-icons/src",
+      "root": "projects/ti-icons-pack",
+      "sourceRoot": "projects/ti-icons-pack/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/tigitale-icons/tsconfig.lib.json",
-            "project": "projects/tigitale-icons/ng-package.json"
+            "tsConfig": "projects/ti-icons-pack/tsconfig.lib.json",
+            "project": "projects/ti-icons-pack/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/tigitale-icons/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ti-icons-pack/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/tigitale-icons/src/test.ts",
-            "tsConfig": "projects/tigitale-icons/tsconfig.spec.json",
-            "karmaConfig": "projects/tigitale-icons/karma.conf.js"
+            "main": "projects/ti-icons-pack/src/test.ts",
+            "tsConfig": "projects/ti-icons-pack/tsconfig.spec.json",
+            "karmaConfig": "projects/ti-icons-pack/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/tigitale-icons/tsconfig.lib.json",
-              "projects/tigitale-icons/tsconfig.spec.json"
+              "projects/ti-icons-pack/tsconfig.lib.json",
+              "projects/ti-icons-pack/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -43,28 +43,28 @@
         }
       }
     },
-    "tigitale-icons-showcase": {
+    "ti-icons-pack-showcase": {
       "projectType": "application",
       "schematics": {},
-      "root": "projects/tigitale-icons-showcase",
-      "sourceRoot": "projects/tigitale-icons-showcase/src",
+      "root": "projects/ti-icons-pack-showcase",
+      "sourceRoot": "projects/ti-icons-pack-showcase/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tigitale-icons-showcase",
-            "index": "projects/tigitale-icons-showcase/src/index.html",
-            "main": "projects/tigitale-icons-showcase/src/main.ts",
-            "polyfills": "projects/tigitale-icons-showcase/src/polyfills.ts",
-            "tsConfig": "projects/tigitale-icons-showcase/tsconfig.app.json",
+            "outputPath": "dist/ti-icons-pack-showcase",
+            "index": "projects/ti-icons-pack-showcase/src/index.html",
+            "main": "projects/ti-icons-pack-showcase/src/main.ts",
+            "polyfills": "projects/ti-icons-pack-showcase/src/polyfills.ts",
+            "tsConfig": "projects/ti-icons-pack-showcase/tsconfig.app.json",
             "aot": true,
             "assets": [
-              "projects/tigitale-icons-showcase/src/favicon.ico",
-              "projects/tigitale-icons-showcase/src/assets"
+              "projects/ti-icons-pack-showcase/src/favicon.ico",
+              "projects/ti-icons-pack-showcase/src/assets"
             ],
             "styles": [
-              "projects/tigitale-icons-showcase/src/styles.css"
+              "projects/ti-icons-pack-showcase/src/styles.css"
             ],
             "scripts": []
           },
@@ -72,8 +72,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "projects/tigitale-icons-showcase/src/environments/environment.ts",
-                  "with": "projects/tigitale-icons-showcase/src/environments/environment.prod.ts"
+                  "replace": "projects/ti-icons-pack-showcase/src/environments/environment.ts",
+                  "with": "projects/ti-icons-pack-showcase/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -102,33 +102,33 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "tigitale-icons-showcase:build"
+            "browserTarget": "ti-icons-pack-showcase:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "tigitale-icons-showcase:build:production"
+              "browserTarget": "ti-icons-pack-showcase:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tigitale-icons-showcase:build"
+            "browserTarget": "ti-icons-pack-showcase:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/tigitale-icons-showcase/src/test.ts",
-            "polyfills": "projects/tigitale-icons-showcase/src/polyfills.ts",
-            "tsConfig": "projects/tigitale-icons-showcase/tsconfig.spec.json",
-            "karmaConfig": "projects/tigitale-icons-showcase/karma.conf.js",
+            "main": "projects/ti-icons-pack-showcase/src/test.ts",
+            "polyfills": "projects/ti-icons-pack-showcase/src/polyfills.ts",
+            "tsConfig": "projects/ti-icons-pack-showcase/tsconfig.spec.json",
+            "karmaConfig": "projects/ti-icons-pack-showcase/karma.conf.js",
             "assets": [
-              "projects/tigitale-icons-showcase/src/favicon.ico",
-              "projects/tigitale-icons-showcase/src/assets"
+              "projects/ti-icons-pack-showcase/src/favicon.ico",
+              "projects/ti-icons-pack-showcase/src/assets"
             ],
             "styles": [
-              "projects/tigitale-icons-showcase/src/styles.css"
+              "projects/ti-icons-pack-showcase/src/styles.css"
             ],
             "scripts": []
           }
@@ -137,9 +137,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/tigitale-icons-showcase/tsconfig.app.json",
-              "projects/tigitale-icons-showcase/tsconfig.spec.json",
-              "projects/tigitale-icons-showcase/e2e/tsconfig.json"
+              "projects/ti-icons-pack-showcase/tsconfig.app.json",
+              "projects/ti-icons-pack-showcase/tsconfig.spec.json",
+              "projects/ti-icons-pack-showcase/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -149,16 +149,17 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/tigitale-icons-showcase/e2e/protractor.conf.js",
-            "devServerTarget": "tigitale-icons-showcase:serve"
+            "protractorConfig": "projects/ti-icons-pack-showcase/e2e/protractor.conf.js",
+            "devServerTarget": "ti-icons-pack-showcase:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "tigitale-icons-showcase:serve:production"
+              "devServerTarget": "ti-icons-pack-showcase:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "tigitale-icons"
+    }
+  },
+  "defaultProject": "ti-icons-pack"
 }

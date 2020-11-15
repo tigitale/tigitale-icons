@@ -23,7 +23,6 @@ export class TigitaleIconsComponent {
     const svgData = this.tigitaleIconsRegistry.getIcon(iconName);
     this.svgIcon = this.svgElementFromString(svgData);
     this.element.nativeElement.appendChild(this.svgIcon);
-
   }
 
   constructor(private element: ElementRef,

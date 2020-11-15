@@ -1,6 +1,6 @@
 {
-  "name": "tigitale-icons",
-  "version": "1.0.0",
+  "name": "ti-icons-pack",
+  "version": "1.1.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

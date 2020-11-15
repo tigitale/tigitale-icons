@@ -16,9 +16,9 @@
       "dom"
     ],
     "paths": {
-      "tigitale-icons": [
-        "dist/tigitale-icons/tigitale-icons",
-        "dist/tigitale-icons"
+      "ti-icons-pack": [
+        "dist/ti-icons-pack/ti-icons-pack",
+        "dist/ti-icons-pack"
       ]
     }
   }
