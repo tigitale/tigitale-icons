@@ -3,7 +3,6 @@ import { tigitaleIcon, TigitaleIcon } from './tigitale-icons';
 import {
     tigitaleIcons360,
     tigitaleIconsAdvertisement,
-    tigitaleIconsAirplay,
     tigitaleIconsAlarm,
     tigitaleIconsAlarmChecked,
     tigitaleIconsAlarmMinus,
@@ -48,7 +47,6 @@ import {
 const icons = [
     tigitaleIcons360,
     tigitaleIconsAdvertisement,
-    tigitaleIconsAirplay,
     tigitaleIconsAlarm,
     tigitaleIconsAlarmChecked,
     tigitaleIconsAlarmMinus,
