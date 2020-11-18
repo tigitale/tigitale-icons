@@ -45,7 +45,7 @@ import {
     tigitaleIconsPin
 } from './tigitale-icons';
 
-const icons = [
+const iconsList = [
     tigitaleIcons360,
     tigitaleIconsAdvertisement,
     tigitaleIconsAirplay,
@@ -106,7 +106,7 @@ export class TigitaleIconsRegistry {
 
     public getIcon(iconName: tigitaleIcon): string | undefined {
         if (!this.registry.has(iconName)) {
-            this.resgisterIcon(icons.filter((icon) => icon.name === iconName)[0]);
+            this.resgisterIcon(iconsList.filter((icon) => icon.name === iconName)[0]);
         }
         return this.registry.get(iconName);
     }
