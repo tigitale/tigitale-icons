@@ -4,30 +4,61 @@ import { TigitaleIconsRegistry } from './tigitale-icons-registry';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
-  //selector: 'lib-tigitale-icons',
   selector: 'ti-icons',
-  template: `
-    <ng-content></ng-content>
-  `,
-  styles: [':host::ng-deep svg{width: 60px; height: 60px}'],
+  templateUrl: './tigitale-icons.component.html',
+  styleUrls: ['./tigitale-icons.component.css']
 })
 export class TigitaleIconsComponent {
 
-  private svgIcon: SVGElement;
+  svgIcon: SVGElement;
+
+  iconName: tigitaleIcon;
+  iconId: string;
 
   @Input()
   set name(iconName: tigitaleIcon) {
-    if (this.svgIcon) {
-      this.element.nativeElement.revomeChild(this.svgIcon);
+    this.iconName = iconName;
+    if (!this.iconId) {
+      this.iconId = Math.random() + '-tigitale-icon';
     }
+
+    if (this.svgIcon) {
+      this.element.nativeElement.removeChild(this.svgIcon);
+    }
+
     const svgData = this.tigitaleIconsRegistry.getIcon(iconName);
     this.svgIcon = this.svgElementFromString(svgData);
+    this.svgIcon.setAttribute('id', this.iconId);
     this.element.nativeElement.appendChild(this.svgIcon);
   }
 
+  @Input()
+  set color(color: string) {
+    const svg = document.getElementById(this.iconId) as unknown as SVGElement;
+    const path = svg.getElementsByTagName('g')[0].getElementsByTagName('path')[0];
+    path.style.fill = color;
+  }
+
+  @Input()
+  set width(width: string) {
+    const svg = document.getElementById(this.iconId) as unknown as SVGElement;
+    svg.setAttribute('width', width);
+    svg.style.width = width;
+    this.element.nativeElement.style.width = width;
+  }
+
+  @Input()
+  set height(height: string) {
+    const svg = document.getElementById(this.iconId) as unknown as SVGElement;
+    svg.setAttribute('height', height);
+    svg.style.height = height;
+    this.element.nativeElement.style.height = height;
+  }
+
   constructor(private element: ElementRef,
-    private tigitaleIconsRegistry: TigitaleIconsRegistry,
-    @Optional() @Inject(DOCUMENT) private document: any) { }
+              private tigitaleIconsRegistry: TigitaleIconsRegistry,
+              @Optional() @Inject(DOCUMENT) private document: any) {
+  }
 
   private svgElementFromString(svgContent: string): SVGElement {
     const div = this.document.createElement('DIV');
