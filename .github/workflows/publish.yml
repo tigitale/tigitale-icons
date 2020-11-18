@@ -1,4 +1,4 @@
-name: "build and publish 🚀"
+name: "build and publish"
 
 on:
   release:
