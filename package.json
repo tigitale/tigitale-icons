@@ -1,13 +1,18 @@
 {
   "name": "ti-icons-pack",
-  "version": "1.1.1",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tigitale/tigitale-icons.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "version": "cd projects/ti-icons-pack && npm version "
   },
   "private": false,
   "dependencies": {

@@ -1,0 +1,31 @@
+name: "building 🔩 and publishing to npm 🚀"
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  release:
+    name: publish 🚀
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout ✅
+        uses: actions/checkout@v2.1.1
+
+      - name: node 🟢
+        uses: actions/setup-node@v1.4.4
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org
+
+      - name: install package dependencies 🔧
+        run: npm install
+
+      - name: building project 🔩
+        run: npm run-script build
+
+      - name: go to dist folder 💼 and publishing 🚀
+        working-directory: ./dist/tigitale-icons/
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
