@@ -1,6 +1,6 @@
 {
   "name": "ti-icons-pack",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/tigitale/tigitale-icons.git"
@@ -12,7 +12,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "version": "cd projects/ti-icons-pack && npm version "
+    "versionp": "cd projects/ti-icons-pack && npm version ",
+    "versionf": "npm version --force",
+    "bs": "ng build && ng serve"
   },
   "private": false,
   "dependencies": {

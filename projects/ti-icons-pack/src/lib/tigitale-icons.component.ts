@@ -4,6 +4,7 @@ import { TigitaleIconsRegistry } from './tigitale-icons-registry';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'ti-icons',
   templateUrl: './tigitale-icons.component.html',
   styleUrls: ['./tigitale-icons.component.css']
