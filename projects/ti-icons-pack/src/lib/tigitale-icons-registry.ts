@@ -148,7 +148,19 @@ import {
   tigitaleIconsCommentChecked,
   tigitaleIconsCommentDelete,
   tigitaleIconsCommentMinus,
-  tigitaleIconsCommentPlus
+  tigitaleIconsCommentPlus,
+  tigitaleIconsCompas,
+  tigitaleIconsCopy,
+  tigitaleIconsCreditcard,
+  tigitaleIconsCreditcardAdd,
+  tigitaleIconsCreditcardFace,
+  tigitaleIconsCreditcardIncome,
+  tigitaleIconsCreditcardNo,
+  tigitaleIconsCreditcardOutcome,
+  tigitaleIconsCreditcardScan,
+  tigitaleIconsCross,
+  tigitaleIconsCrosshairs,
+  tigitaleIconsFilter
 } from './tigitale-icons';
 
 const iconsList = [
@@ -300,7 +312,19 @@ const iconsList = [
   tigitaleIconsCommentChecked,
   tigitaleIconsCommentDelete,
   tigitaleIconsCommentMinus,
-  tigitaleIconsCommentPlus
+  tigitaleIconsCommentPlus,
+  tigitaleIconsCompas,
+  tigitaleIconsCopy,
+  tigitaleIconsCreditcard,
+  tigitaleIconsCreditcardAdd,
+  tigitaleIconsCreditcardFace,
+  tigitaleIconsCreditcardIncome,
+  tigitaleIconsCreditcardNo,
+  tigitaleIconsCreditcardOutcome,
+  tigitaleIconsCreditcardScan,
+  tigitaleIconsCross,
+  tigitaleIconsCrosshairs,
+  tigitaleIconsFilter
 ];
 
 @Injectable({

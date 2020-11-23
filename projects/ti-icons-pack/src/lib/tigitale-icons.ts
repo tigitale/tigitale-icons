@@ -836,6 +836,66 @@ export const tigitaleIconsCommentPlus: TigitaleIcon = {
 
 // PAREI NO COMMENT-TEXT
 
+export const tigitaleIconsCompas: TigitaleIcon = {
+  name: 'compas',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / maps / compas"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM14.7906 14.7906L17.5811 6.41886L9.20943 9.20943L6.41886 17.5811L14.7906 14.7906ZM13.2094 13.2094L9.58114 14.4189L10.7906 10.7906L14.4189 9.58114L13.2094 13.2094Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCopy: TigitaleIcon = {
+  name: 'copy',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / copy"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 2H20C21.1523 2 22 2.84772 22 4V14C22 15.1523 21.1523 16 20 16H16V20C16 21.1523 15.1523 22 14 22H4C2.84772 22 2 21.1523 2 20V10C2 8.84772 2.84772 8 4 8H8V4C8 2.84772 8.84772 2 10 2ZM8 10H4V20H14V16H10C8.84772 16 8 15.1523 8 14V10ZM10 4V14H20V4H10Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcard: TigitaleIcon = {
+  name: 'creditcard',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2.81818 3H21.1818C22.186 3 23 3.89543 23 5V17C23 18.1046 22.186 19 21.1818 19H2.81818C1.81403 19 1 18.1046 1 17V5C1 3.89543 1.81403 3 2.81818 3ZM3 10V17H21V10H3ZM3 8H21V5H3V8Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcardAdd: TigitaleIcon = {
+  name: 'creditcard-add',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard-add"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M21.1818 3H2.81818C1.81403 3 1 3.89543 1 5V17C1 18.1046 1.81403 19 2.81818 19H14V17H3V10H21V13H23V5C23 3.89543 22.186 3 21.1818 3ZM21 8V5H3V8H21ZM17 19V17H19V15H21V17H23V19H21V21H19V19H17Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcardFace: TigitaleIcon = {
+  name: 'creditcard-face',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard-face"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2.81818 3H21.1818C22.186 3 23 3.89543 23 5V17C23 18.1046 22.186 19 21.1818 19H2.81818C1.81403 19 1 18.1046 1 17V5C1 3.89543 1.81403 3 2.81818 3ZM3 5V17H21V5H3ZM5 13V15H7V13H5ZM8 15V13H11V15H8ZM17 13V15H19V13H17ZM14 15V13H16V15H14ZM8 8H5V11H8V8Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcardIncome: TigitaleIcon = {
+  name: 'creditcard-income',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard-income"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2.81818 3H21.1818C22.186 3 23 3.89543 23 5V17C23 18.1046 22.186 19 21.1818 19H11V17H21V10H3V12H1V5C1 3.89543 1.81403 3 2.81818 3ZM21 5V8H3V5H21ZM1 17H5.58579L4.29289 18.2929L5.70711 19.7071L9.41421 16L5.70711 12.2929L4.29289 13.7071L5.58579 15H1V17Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcardNo: TigitaleIcon = {
+  name: 'creditcard-no',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard-no"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2.81818 19H18.5858L21.2929 21.7071L22.7071 20.2929L2.70711 0.292908L1.29289 1.70712L2.60003 3.01426C1.69873 3.13281 1 3.97665 1 5.00001V17C1 18.1046 1.81403 19 2.81818 19ZM3 5.00001H4.58579L7.58579 8.00001H3V5.00001ZM9.58579 10H3V17H16.5858L9.58579 10ZM8.21421 3.00001L10.2142 5.00001H21V8.00001H13.2142L15.2142 10H21V15.7858L22.8927 17.6785C22.9621 17.4667 23 17.2382 23 17V5.00001C23 3.89544 22.186 3.00001 21.1818 3.00001H8.21421Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcardOutcome: TigitaleIcon = {
+  name: 'creditcard-outcome',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard-outcome"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2.81818 3H21.1818C22.186 3 23 3.89543 23 5V12H21V10H3V17H12V19H2.81818C1.81403 19 1 18.1046 1 17V5C1 3.89543 1.81403 3 2.81818 3ZM21 5V8H3V5H21ZM14 17H18.5858L17.2929 18.2929L18.7071 19.7071L22.4142 16L18.7071 12.2929L17.2929 13.7071L18.5858 15H14V17Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCreditcardScan: TigitaleIcon = {
+  name: 'creditcard-scan',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / finance / creditcard-scan"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M5 3V5H3V7H1V5C1 3.89543 1.81403 3 2.81818 3H5ZM5.81818 6H18.1818C19.186 6 20 6.89543 20 8V16C20 17.1046 19.186 18 18.1818 18H5.81818C4.81403 18 4 17.1046 4 16V8C4 6.89543 4.81403 6 5.81818 6ZM6 12V16H18V12H6ZM6 10H18V8H6V10ZM19 19V21H21.1818C22.186 21 23 20.1046 23 19V17H21V19H19ZM19 3H21.1818C22.186 3 23 3.89543 23 5V7H21V5H19V3ZM2.81818 21H5V19H3V17H1V19C1 20.1046 1.81403 21 2.81818 21Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCross: TigitaleIcon = {
+  name: 'cross',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / various / cross"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M19.7778 8H16V4.22222C16 2.99492 15.186 2 14.1818 2H9.81818C8.81403 2 8 2.99492 8 4.22222V8H4.22222C2.99492 8 2 8.81403 2 9.81818V14.1818C2 15.186 2.99492 16 4.22222 16H8V19.7778C8 21.0051 8.81403 22 9.81818 22H14.1818C15.186 22 16 21.0051 16 19.7778V16H19.7778C21.0051 16 22 15.186 22 14.1818V9.81818C22 8.81403 21.0051 8 19.7778 8ZM20 10H14V4H10V10H4V14H10V20H14V14H20V10Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsCrosshairs: TigitaleIcon = {
+  name: 'crosshairs',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / various / crosshairs"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M11 1H13V3.05493C17.1716 3.51608 20.4839 6.82838 20.9451 11H23V13H20.9451C20.4839 17.1716 17.1716 20.4839 13 20.9451V23H11V20.9451C6.82838 20.4839 3.51608 17.1716 3.05493 13H1V11H3.05493C3.51608 6.82838 6.82838 3.51608 11 3.05493V1ZM5.07089 13H7V11H5.07089C5.5094 7.93431 7.93431 5.5094 11 5.07089V7H13V5.07089C16.0657 5.5094 18.4906 7.93431 18.9291 11H17V13H18.9291C18.4906 16.0657 16.0657 18.4906 13 18.9291V17H11V18.9291C7.93431 18.4906 5.5094 16.0657 5.07089 13ZM10 12C10 13.1046 10.8954 14 12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsFilter: TigitaleIcon = {
+  name: 'filter',
+  data: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect y="2" width="16" height="2" rx="1" fill="#030303"/> <rect width="16" height="2" rx="1" transform="matrix(-1 0 0 1 16 12)" fill="#030303"/> <circle cx="11" cy="3" r="3" fill="#030303"/> <circle cx="6" cy="13" r="3" fill="#030303"/></svg>'
+};
+
 /*
 export const tigitaleIcons: TigitaleIcon = {
   name: '',
@@ -1119,6 +1179,7 @@ export type tigitaleIcon =
   | 'send'
   | 'server'
   | 'settings'
+  | 'filter'
   | 'share-arrow'
   | 'share'
   | 'shield-lock'
