@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
-// import { tigitaleIcon, TigitaleIcon } from './tigitale-icons';
+import { tigitaleIcon, TigitaleIcon } from './tigitale-icons';
 import {
-  tigitaleIcon,
-  TigitaleIcon,
   tigitaleIcons360,
   tigitaleIconsAdvertisement,
   tigitaleIconsAirplay,
