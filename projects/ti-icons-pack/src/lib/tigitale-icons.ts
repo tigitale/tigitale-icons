@@ -1282,6 +1282,50 @@ export const tigitaleIconsMinusOctagon: TigitaleIcon = {
   data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / notifications / minus-octagon"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M23 7.44365V16.5563L16.5563 23H7.44365L1 16.5563V7.44365L7.44365 1H16.5563L23 7.44365ZM15.7279 3H8.27208L3 8.27208V15.7279L8.27208 21H15.7279L21 15.7279V8.27208L15.7279 3ZM17 11H7V13H17V11Z" fill="black"/></g></svg>'
 };
 
+export const tigitaleIconsMobile: TigitaleIcon = {
+  name: 'mobile',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / gadgets / mobile"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M7 2H17C18.1046 2 19 2.89543 19 4V20C19 21.1046 18.1046 22 17 22H7C5.89543 22 5 21.1046 5 20V4C5 2.89543 5.89543 2 7 2ZM7 4V20H17V4H7ZM13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17C12.5523 17 13 17.4477 13 18Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsMonitor: TigitaleIcon = {
+  name: 'monitor',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / gadgets / monitor"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M9 19V20H7V22H17V20H15V19H21C22.1046 19 23 18.1046 23 17V4C23 2.89543 22.1046 2 21 2H3C1.89543 2 1 2.89543 1 4V17C1 18.1046 1.89543 19 3 19H9ZM21 17H3V4H21V17Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsMoon: TigitaleIcon = {
+  name: 'moon',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / various / moon"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M13 9C13 7.02543 13.8205 5.18477 15.2398 3.86765L16.7174 2.49647L14.7317 2.14956C14.1634 2.05029 13.5847 2 13 2C7.47715 2 3 6.47715 3 12C3 17.5228 7.47715 22 13 22C16.3854 22 19.4843 20.3038 21.3266 17.5396L22.4432 15.8643L20.4336 15.9868C20.2898 15.9956 20.1452 16 20 16C16.134 16 13 12.866 13 9ZM13 20C8.58172 20 5 16.4183 5 12C5 7.74791 8.31735 4.27062 12.5051 4.01506C11.5367 5.46848 11 7.19184 11 9C11 13.439 14.2137 17.1274 18.4414 17.8655C16.9878 19.2153 15.061 20 13 20Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsMoreHorizontal: TigitaleIcon = {
+  name: 'more-horizontal',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / more-horizontal"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M5 14C3.89543 14 3 13.1046 3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14ZM12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14ZM17 12C17 13.1046 17.8954 14 19 14C20.1046 14 21 13.1046 21 12C21 10.8954 20.1046 10 19 10C17.8954 10 17 10.8954 17 12Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsMoreVertical: TigitaleIcon = {
+  name: 'more-vertical',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / more-vertical"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 5C10 6.10457 10.8954 7 12 7C13.1046 7 14 6.10457 14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5ZM12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14ZM12 21C10.8954 21 10 20.1046 10 19C10 17.8954 10.8954 17 12 17C13.1046 17 14 17.8954 14 19C14 20.1046 13.1046 21 12 21Z" fill="black"/></g></svg>'
+};
+
+// PAREI NO MORE-VERTIAL.SVG
+
+export const tigitaleIconsNewspaper: TigitaleIcon = {
+  name: 'newspaper',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / newspaper"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M4 18V5H16V18C16 18.3506 16.0602 18.6872 16.1707 19H5C4.44772 19 4 18.5523 4 18ZM19 21H5C3.34315 21 2 19.6569 2 18V3H16H17H18V8H22V9V10V18C22 19.6569 20.6569 21 19 21ZM18 10H20V18C20 18.5523 19.5523 19 19 19C18.4477 19 18 18.5523 18 18V10ZM10 7V11H6V7H10ZM14 10V8H11V10H14ZM14 12V14H6V12H14ZM14 17V15H6V17H14Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsNoteText: TigitaleIcon = {
+  name: 'note-text',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / file / note-text"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2 20C2 21.1046 2.89543 22 4 22H17.4142L22 17.4142V4C22 2.89543 21.1046 2 20 2H4C2.89543 2 2 2.89543 2 4V20ZM4 4H20V15H17C15.8954 15 15 15.8954 15 17V20H4V4ZM17 17H19.5858L17 19.5858V17ZM7 15V17H13V15H7ZM7 13V11H17V13H7ZM7 7V9H17V7H7Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsNote: TigitaleIcon = {
+  name: 'note',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / file / note"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M4 22C2.89543 22 2 21.1046 2 20V4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V17.4142L17.4142 22H4ZM20 4H4V20H15V17C15 15.8954 15.8954 15 17 15H20V4ZM19.5858 17H17V19.5858L19.5858 17Z" fill="black"/></g></svg>'
+};
+
+// INDO PRO OPTIONS.SVG
+
 /*
 export const tigitaleIcons: TigitaleIcon = {
   name: '',
