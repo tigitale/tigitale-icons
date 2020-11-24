@@ -233,7 +233,6 @@ import {
   tigitaleIconsVideo,
   tigitaleIconsNote,
   tigitaleIconsNoteText,
-  tigitaleIconsOptions,
   tigitaleIconsPanorama,
   tigitaleIconsPaperclipNo,
   tigitaleIconsPaperclip,
@@ -264,6 +263,18 @@ import {
   tigitaleIconsRefreshCcwAlert,
   tigitaleIconsRefreshCw,
   tigitaleIconsRefreshCwAlert,
+  tigitaleIconsRotateCcw,
+  tigitaleIconsRotateCw,
+  tigitaleIconsScan,
+  tigitaleIconsScreenShot,
+  tigitaleIconsSend,
+  tigitaleIconsServer,
+  tigitaleIconsShare,
+  tigitaleIconsShareArrow,
+  tigitaleIconsShield,
+  tigitaleIconsShieldLock,
+  tigitaleIconsShieldNo,
+  tigitaleIconsShieldOk,
 } from './tigitale-icons';
 
 const iconsList = [
@@ -499,7 +510,6 @@ const iconsList = [
   tigitaleIconsVideo,
   tigitaleIconsNote,
   tigitaleIconsNoteText,
-  tigitaleIconsOptions,
   tigitaleIconsPanorama,
   tigitaleIconsPaperclipNo,
   tigitaleIconsPaperclip,
@@ -530,6 +540,18 @@ const iconsList = [
   tigitaleIconsRefreshCcwAlert,
   tigitaleIconsRefreshCw,
   tigitaleIconsRefreshCwAlert,
+  tigitaleIconsRotateCcw,
+  tigitaleIconsRotateCw,
+  tigitaleIconsScan,
+  tigitaleIconsScreenShot,
+  tigitaleIconsSend,
+  tigitaleIconsServer,
+  tigitaleIconsShare,
+  tigitaleIconsShareArrow,
+  tigitaleIconsShield,
+  tigitaleIconsShieldLock,
+  tigitaleIconsShieldNo,
+  tigitaleIconsShieldOk,
 ];
 
 @Injectable({
