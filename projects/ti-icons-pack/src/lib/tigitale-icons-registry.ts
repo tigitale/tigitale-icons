@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { tigitaleIcon, TigitaleIcon } from './tigitale-icons';
+import { tigitaleIcon, TigitaleIcon, tigitaleIconsEye } from './tigitale-icons';
 import {
   tigitaleIcons360,
   tigitaleIconsAdvertisement,
@@ -155,6 +155,14 @@ import {
   tigitaleIconsCross,
   tigitaleIconsCrosshairs,
   tigitaleIconsCut,
+  tigitaleIconsDashboard,
+  tigitaleIconsDelete,
+  tigitaleIconsDevices,
+  tigitaleIconsDownload,
+  tigitaleIconsDrop,
+  tigitaleIconsEject,
+  tigitaleIconsExternalLink,
+  tigitaleIconsEyeNo,
   tigitaleIconsFile,
   tigitaleIconsFileChecked,
   tigitaleIconsFileCode,
@@ -300,10 +308,24 @@ import {
   tigitaleIconsTrash,
   tigitaleIconsTrashEmpty,
   tigitaleIconsUnlock,
+  tigitaleIconsVideoNo,
+  tigitaleIconsVolume,
+  tigitaleIconsVolumeHigh,
+  tigitaleIconsVolumeLow,
+  tigitaleIconsVolumeNo,
+  tigitaleIconsVolumeOff,
+  tigitaleIconsWifi,
+  tigitaleIconsWifiNo,
+  tigitaleIconsXOctagon,
+  tigitaleIconsZoomIn,
+  tigitaleIconsZoomOut
 } from './tigitale-icons';
 
 const iconsList = [
   tigitaleIcons360,
+  tigitaleIconsEye,
+  tigitaleIconsEyeNo,
+  tigitaleIconsEject,
   tigitaleIconsAdvertisement,
   tigitaleIconsAirplay,
   tigitaleIconsAlarm,
@@ -457,6 +479,11 @@ const iconsList = [
   tigitaleIconsCross,
   tigitaleIconsCrosshairs,
   tigitaleIconsCut,
+  tigitaleIconsDashboard,
+  tigitaleIconsDelete,
+  tigitaleIconsDevices,
+  tigitaleIconsDownload,
+  tigitaleIconsExternalLink,
   tigitaleIconsFile,
   tigitaleIconsFileChecked,
   tigitaleIconsFileCode,
@@ -601,7 +628,19 @@ const iconsList = [
   tigitaleIconsToggleRight,
   tigitaleIconsTrash,
   tigitaleIconsTrashEmpty,
-  tigitaleIconsUnlock,
+  tigitaleIconsUnlock,  
+  tigitaleIconsVideoNo,
+  tigitaleIconsVolume,
+  tigitaleIconsVolumeHigh,
+  tigitaleIconsVolumeLow,
+  tigitaleIconsVolumeNo,
+  tigitaleIconsVolumeOff,
+  tigitaleIconsWifi,
+  tigitaleIconsWifiNo,
+  tigitaleIconsXOctagon,
+  tigitaleIconsZoomIn,
+  tigitaleIconsZoomOut,
+  tigitaleIconsDrop,
 ];
 
 @Injectable({
