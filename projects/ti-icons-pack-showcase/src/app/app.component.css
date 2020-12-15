@@ -14,3 +14,10 @@ h2 {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+.show-case-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
