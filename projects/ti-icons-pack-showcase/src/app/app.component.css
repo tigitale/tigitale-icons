@@ -21,3 +21,10 @@ h3 {
   text-align: center;
   margin-bottom: 40px;
 }
+
+.show-case-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

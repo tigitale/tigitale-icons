@@ -161,5 +161,8 @@
       }
     }
   },
-  "defaultProject": "ti-icons-pack"
+  "defaultProject": "ti-icons-pack",
+  "cli": {
+    "analytics": false
+  }
 }
