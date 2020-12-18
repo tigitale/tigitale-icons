@@ -36,6 +36,9 @@ export class TigitaleIconsComponent {
   @Input()
   set color(color: string) {
     const svg = document.getElementById(this.iconId) as unknown as SVGElement;
+    if (!svg) {
+      return;
+    }
     const path = svg.getElementsByTagName('g')[0].getElementsByTagName('path')[0];
     path.style.fill = color;
   }
@@ -43,6 +46,9 @@ export class TigitaleIconsComponent {
   @Input()
   set width(width: string) {
     const svg = document.getElementById(this.iconId) as unknown as SVGElement;
+    if (!svg) {
+      return;
+    }
     svg.setAttribute('width', width);
     svg.style.width = width;
     this.element.nativeElement.style.width = width;
@@ -51,6 +57,9 @@ export class TigitaleIconsComponent {
   @Input()
   set height(height: string) {
     const svg = document.getElementById(this.iconId) as unknown as SVGElement;
+    if (!svg) {
+      return;
+    }
     svg.setAttribute('height', height);
     svg.style.height = height;
     this.element.nativeElement.style.height = height;
@@ -63,6 +72,9 @@ export class TigitaleIconsComponent {
 
   private svgElementFromString(svgContent: string): SVGElement {
     const div = this.document.createElement('DIV');
+    if (!div) {
+      return;
+    }
     div.innerHTML = svgContent;
     return div.querySelector('svg') || this.document.createElementNS('http://www.w3.org/2000/svg', 'path');
   }
