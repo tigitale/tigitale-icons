@@ -628,7 +628,7 @@ const iconsList = [
   tigitaleIconsToggleRight,
   tigitaleIconsTrash,
   tigitaleIconsTrashEmpty,
-  tigitaleIconsUnlock,  
+  tigitaleIconsUnlock,
   tigitaleIconsVideoNo,
   tigitaleIconsVolume,
   tigitaleIconsVolumeHigh,
@@ -659,7 +659,7 @@ export class TigitaleIconsRegistry {
     this.registry.set(icon.name, icon.data);
   }
 
-  public getIcon(iconName: tigitaleIcon): string | undefined {
+  public getIcon(iconName: tigitaleIcon): string | any {
     if (!this.registry.has(iconName)) {
       this.resgisterIcon(iconsList.filter((icon) => icon.name === iconName)[0]);
     }
