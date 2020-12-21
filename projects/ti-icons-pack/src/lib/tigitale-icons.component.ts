@@ -28,7 +28,7 @@ export class TigitaleIconsComponent {
     }
 
     const svgData = this.tigitaleIconsRegistry.getIcon(iconName);
-    this.svgIcon = this.svgElementFromString(svgData);
+    this.svgIcon = TigitaleIconsComponent.svgElementFromString(svgData);
     this.svgIcon.setAttribute('id', this.iconId);
     this.element.nativeElement.appendChild(this.svgIcon);
   }
@@ -70,12 +70,12 @@ export class TigitaleIconsComponent {
               @Optional() @Inject(DOCUMENT) private document: any) {
   }
 
-  private svgElementFromString(svgContent: string): SVGElement {
-    const div = this.document.createElement('DIV');
+  public static svgElementFromString(svgContent: string): SVGElement {
+    const div = document.createElement('DIV');
     if (!div) {
       return;
     }
     div.innerHTML = svgContent;
-    return div.querySelector('svg') || this.document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    return div.querySelector('svg') || document.createElementNS('http://www.w3.org/2000/svg', 'path');
   }
 }
